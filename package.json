@@ -1,15 +1,24 @@
 {
   "name": "rebrickable-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattriffle/rebrickable-ts"
+  },
+  "keywords": [
+    "rebrickable",
+    "typescript",
+    "api",
+    "lego"
+  ],
+  "author": "Matt Riffle",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "axios": "^1.10.0"
